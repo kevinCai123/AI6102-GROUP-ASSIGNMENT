@@ -1,0 +1,13 @@
+{
+  "seconds": {
+    "elastic_engineered": 0.19825160002801567,
+    "svr_engineered": 0.5701379999518394,
+    "cat_engineered": 145.97739679994993,
+    "lgb_engineered": 0.5966805999632925
+  },
+  "rows": 1459,
+  "prediction_min": 42243.76196572341,
+  "prediction_max": 535046.9557406332,
+  "peak_working_set_mb": 218.05859375,
+  "submission_sha256": "0ea20b4520e54326d1894c3e7d32f56d9b003deaf6782dbe38c902bf35464a9c"
+}

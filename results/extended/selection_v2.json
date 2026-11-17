@@ -1,0 +1,33 @@
+{
+  "components": {
+    "Elastic Net + Yeo-Johnson": "encoding__Elastic Net__one-hot + Yeo-Johnson",
+    "SVR, standard scaling": "svr__standard__g0.0003__C5.0",
+    "CatBoost, no interactions": "catboost__v2__none",
+    "XGBoost, no interactions": "sens__xgb__d3"
+  },
+  "combiner": "Equal-weight average",
+  "weights": {
+    "Elastic Net + Yeo-Johnson": 0.25,
+    "SVR, standard scaling": 0.25,
+    "CatBoost, no interactions": 0.25,
+    "XGBoost, no interactions": 0.25
+  },
+  "constrained_weights_reference": {
+    "Elastic Net + Yeo-Johnson": 0.3751601352582646,
+    "SVR, standard scaling": 0.0,
+    "CatBoost, no interactions": 0.21112581412154247,
+    "XGBoost, no interactions": 0.41371405062019306
+  },
+  "single_oof": {
+    "Elastic Net + Yeo-Johnson": 0.1264755755271236,
+    "SVR, standard scaling": 0.12900976010554904,
+    "CatBoost, no interactions": 0.124549814215876,
+    "XGBoost, no interactions": 0.1233582617548017
+  },
+  "blend_oof": 0.11969111904689435,
+  "residual_correlation_range": [
+    0.823407993755006,
+    0.9392585788376908
+  ],
+  "note": "Selected on development OOF only, before the v2 holdout evaluation."
+}

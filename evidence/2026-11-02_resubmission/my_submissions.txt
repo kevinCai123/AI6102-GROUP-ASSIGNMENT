@@ -1,0 +1,118 @@
+- navigation "Main Kaggle page navigation":
+  - button "Navigation menu": menu
+  - link "Skip to content":
+    - /url: "#site-content"
+    - text: Skip to
+    - text: content
+  - button "Create on Kaggle":
+    - paragraph: Create
+  - list:
+    - listitem "Home List Item":
+      - link "Home":
+        - /url: /
+        - paragraph: Home
+    - listitem "Competitions List Item":
+      - link "Competitions":
+        - /url: /competitions
+        - paragraph: Competitions
+    - listitem "Benchmarks List Item":
+      - link "Benchmarks":
+        - /url: /benchmarks
+        - paragraph: Benchmarks
+    - listitem "Arenas List Item":
+      - link "Arenas":
+        - /url: /arenas
+        - paragraph: Arenas
+    - listitem "Game Arena List Item":
+      - link "Game Arena":
+        - /url: /game-arena
+        - paragraph: Game Arena
+  - list:
+    - listitem "Data Hub List Item":
+      - link "Data Hub":
+        - /url: "#"
+        - paragraph: Data Hub
+  - list:
+    - listitem "More on Kaggle List Item":
+      - link "More on Kaggle":
+        - /url: "#"
+        - paragraph: More
+  - button "Open Active Events dialog View Active Events":
+    - generic "Open Active Events dialog": auto_awesome_motion
+    - paragraph: View Active Events
+- navigation "Main menu, search and your account":
+  - textbox "Search"
+  - button "songlin cai kevin1662":
+    - generic "songlin cai kevin1662"
+- main:
+  - link "Kaggle's profile":
+    - /url: /organizations/kaggle
+    - generic "Kaggle"
+  - generic: Kaggle
+  - generic: · Getting Started Prediction Competition · Ongoing
+  - button "Submit Prediction":
+    - generic: Submit Prediction
+  - button "Competition options menu collapsed": more_horiz
+  - heading "House Prices - Advanced Regression Techniques" [level=1]
+  - paragraph: Predict sales prices and practice feature engineering, RFs, and gradient boosting
+  - tablist:
+    - tab "Overview, 1 of 9":
+      - generic: Overview
+    - tab "Data, 2 of 9":
+      - generic: Data
+    - tab "Code, 3 of 9":
+      - generic: Code
+    - tab "Models, 4 of 9":
+      - generic: Models
+    - tab "Discussion, 5 of 9":
+      - generic: Discussion
+    - tab "Leaderboard, 6 of 9":
+      - generic: Leaderboard
+    - tab "Rules, 7 of 9":
+      - generic: Rules
+    - tab "Team, 8 of 9":
+      - generic: Team
+    - tab "Submissions, 9 of 9" [selected]:
+      - generic: Submissions
+  - separator
+  - heading "Submissions" [level=2]
+  - checkbox "All" [checked]:
+    - generic: All
+  - checkbox "Successful":
+    - generic: Successful
+  - checkbox "Errors":
+    - generic: Errors
+  - combobox "Select combobox. Recent currently selected.":
+    - generic: Recent
+  - textbox: Recent
+  - separator
+  - paragraph: Submission and Description
+  - paragraph: Score
+  - generic: info
+  - separator
+  - list:
+    - listitem "undefined List Item":
+      - 'link "Success submission_blend_v2.csv Complete · now · description: v2 equal-weight comparison ensemble public score 0.11865"':
+        - /url: "#"
+        - generic "Success": check_circle
+        - generic: submission_blend_v2.csv
+        - generic: Complete · now · v2 equal-weight comparison ensemble
+        - paragraph: "0.11865"
+    - separator
+    - listitem "undefined List Item":
+      - 'link "Success submission_blend.csv Complete · 35 seconds ago · description: v1 weighted ensemble - resubmission to refresh rolling leaderboard public score 0.11862"':
+        - /url: "#"
+        - generic "Success": check_circle
+        - generic: submission_blend.csv
+        - generic: Complete · 35s ago · v1 weighted ensemble - resubmission to refresh rolling leaderboard
+        - paragraph: "0.11862"
+    - separator
+    - listitem "undefined List Item":
+      - 'link "Success submission_blend.csv Complete · a month ago · description: AI6102 CPU project: engineered log-price features; family-diverse OOF blend; locked 292-row holdout. Reproducible local training. public score 0.11862"':
+        - /url: "#"
+        - generic "Success": check_circle
+        - generic: submission_blend.csv
+        - generic: "Complete · 1mo ago · AI6102 CPU project: engineered log-price features; family-diverse OOF blend; locked 292-row holdout. Reproducible local training."
+        - paragraph: "0.11862"
+    - separator
+- alert

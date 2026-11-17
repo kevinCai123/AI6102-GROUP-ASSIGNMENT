@@ -1,0 +1,9 @@
+key,rule,oof_rmse,oof_rmse_excl_524_1299,fold_sd,seconds,model,variant,ordinal,skew_fix
+encoding__Ridge__one-hot,none,0.1346077410599462,0.11877016138751743,0.02680290031727584,0.7,Ridge,one-hot,False,False
+encoding__Ridge__one-hot + Yeo-Johnson,none,0.13112000452339775,0.11609849735147583,0.026122066118915672,2.5,Ridge,one-hot + Yeo-Johnson,False,True
+encoding__Ridge__ordinal,none,0.13559639202088006,0.11874056076117431,0.02760295094671526,0.7,Ridge,ordinal,True,False
+encoding__Ridge__ordinal + Yeo-Johnson,none,0.13055460200161478,0.1163542747150627,0.025224239404202306,3.5,Ridge,ordinal + Yeo-Johnson,True,True
+encoding__Elastic Net__one-hot,none,0.12947258367013545,0.11259063080462012,0.027230105356462322,4.7,Elastic Net,one-hot,False,False
+encoding__Elastic Net__one-hot + Yeo-Johnson,none,0.1264755755271236,0.11100572526072199,0.027693267666073728,41.9,Elastic Net,one-hot + Yeo-Johnson,False,True
+encoding__Elastic Net__ordinal,none,0.1313008537090925,0.11268399915387722,0.029403551771304562,3.8,Elastic Net,ordinal,True,False
+encoding__Elastic Net__ordinal + Yeo-Johnson,none,0.12727431654880347,0.112484669642131,0.026665858846620136,26.3,Elastic Net,ordinal + Yeo-Johnson,True,True

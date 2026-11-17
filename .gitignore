@@ -1,0 +1,29 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Local competition data and account credentials
+/data/
+/data_raw/
+/raw_data/
+/house-prices-advanced-regression-techniques.zip
+.env
+.env.*
+kaggle.json
+# Keep the original results; ignore separate reproduction runs
+/results_reproduced/
+/report_reproduced/
+# LaTeX temporary files
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv
+# Operating system files
+.DS_Store
+Thumbs.db

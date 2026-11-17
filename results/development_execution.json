@@ -1,0 +1,6 @@
+{
+  "elapsed_seconds": 1387.950115900021,
+  "workers": 3,
+  "threads_per_worker": 2,
+  "cache_reuse_possible": true
+}

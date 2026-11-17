@@ -1,0 +1,39 @@
+{
+  "name": "elastic_engineered",
+  "config": {
+    "kind": "elastic",
+    "features": "engineered",
+    "alpha": 0.0005
+  },
+  "oof_log_rmse": 0.12947258367013545,
+  "mean_fold_log_rmse": 0.12713074302759744,
+  "sd_fold_log_rmse": 0.027230105356462298,
+  "seconds": 2.6349347999785095,
+  "folds": [
+    {
+      "fold": 0,
+      "log_rmse": 0.15258535245908791,
+      "seconds": 0.34893550002016127
+    },
+    {
+      "fold": 1,
+      "log_rmse": 0.15997978112247996,
+      "seconds": 1.7357562999241054
+    },
+    {
+      "fold": 2,
+      "log_rmse": 0.10213772632459457,
+      "seconds": 0.19583340000826865
+    },
+    {
+      "fold": 3,
+      "log_rmse": 0.11592832404741416,
+      "seconds": 0.19945399998687208
+    },
+    {
+      "fold": 4,
+      "log_rmse": 0.10502253118441054,
+      "seconds": 0.15468969999346882
+    }
+  ]
+}

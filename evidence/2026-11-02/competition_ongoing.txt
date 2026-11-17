@@ -1,0 +1,3 @@
+Browser tab: 1, Title: "House Prices - Advanced Regression Techniques | Kaggle", URL: "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview".
+There has been no change in the accessibility tree.
+The focused UI element is 121 tab (selected, settable, boolean) Description: Overview, 1 of 7, Value: 1

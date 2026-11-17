@@ -1,0 +1,26 @@
+{
+  "method": "Best development performer in each of four complementary pipeline families; convex OOF blend",
+  "family_candidates": {
+    "regularized_linear": "elastic_engineered",
+    "kernel": "svr_engineered",
+    "native_categorical_boosting": "cat_engineered",
+    "one_hot_boosting": "lgb_engineered"
+  },
+  "selected_models": [
+    "elastic_engineered",
+    "svr_engineered",
+    "cat_engineered",
+    "lgb_engineered"
+  ],
+  "weights": [
+    0.35264722944141147,
+    0.03166013639952475,
+    0.16108508625449885,
+    0.454607547904565
+  ],
+  "best_single": "lgb_engineered",
+  "blend_development_rmse": 0.12035349140622666,
+  "locked_utc": "2026-09-28T21:45:06.154797+00:00",
+  "selection_source_sha256": "05a92d727800c26f14f58f7e8b84ff2d6b41bae6ceb94beb44cc1115cd9f12f5",
+  "warning": "The family-diverse selection rule was refined using development results before opening the holdout. Its optimized OOF score is optimistic, not an unbiased estimate."
+}

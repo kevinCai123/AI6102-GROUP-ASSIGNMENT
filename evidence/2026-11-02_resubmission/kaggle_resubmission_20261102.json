@@ -1,0 +1,158 @@
+{
+  "competition": "house-prices-advanced-regression-techniques",
+  "account": "songlin cai kevin1662",
+  "evidence_date": "2026-11-02",
+  "timezone": "Asia/Singapore",
+  "reference_test_file": {
+    "archive": "E:\\NTU Courses\\AI6102\\Assignment Group\\house-prices-advanced-regression-techniques.zip",
+    "member": "test.csv",
+    "sha256": "8fdd3d829d4d986b58f845c9553b225e67dd8383624d90fb6ca1d4bed5798c1e",
+    "matches_recorded_official_hash": true,
+    "read_method": "Read test.csv directly from the official ZIP without extracting or adding a project data folder",
+    "hash_record_source": "results/manifest.json"
+  },
+  "pre_submission_checks": {
+    "checked_at_singapore": "2026-11-02T04:00:05.959765+08:00",
+    "status": "all_passed",
+    "A": {
+      "file": "E:\\NTU Courses\\AI6102\\Assignment Group\\house_prices_project\\results\\submissions\\submission_blend.csv",
+      "data_rows": 1459,
+      "header": [
+        "Id",
+        "SalePrice"
+      ],
+      "exactly_1459_rows_plus_header": true,
+      "columns_exact": true,
+      "ids_match_reference_in_order": true,
+      "all_prices_finite_positive": true,
+      "sha256": "0ea20b4520e54326d1894c3e7d32f56d9b003deaf6782dbe38c902bf35464a9c"
+    },
+    "B": {
+      "file": "E:\\NTU Courses\\AI6102\\Assignment Group\\house_prices_project\\results\\reproduced_v2_20261102\\submission_blend_v2.csv",
+      "data_rows": 1459,
+      "header": [
+        "Id",
+        "SalePrice"
+      ],
+      "exactly_1459_rows_plus_header": true,
+      "columns_exact": true,
+      "ids_match_reference_in_order": true,
+      "all_prices_finite_positive": true,
+      "sha256": "6b82c0c0f40883c1b46668ef334accc43670d0c3157e0688ef99cf818c588635"
+    }
+  },
+  "submission_order": [
+    "A",
+    "B"
+  ],
+  "new_submissions_made": 2,
+  "submissions": {
+    "A": {
+      "file": "E:\\NTU Courses\\AI6102\\Assignment Group\\house_prices_project\\results\\submissions\\submission_blend.csv",
+      "sha256": "0ea20b4520e54326d1894c3e7d32f56d9b003deaf6782dbe38c902bf35464a9c",
+      "description": "v1 weighted ensemble - resubmission to refresh rolling leaderboard",
+      "status": "Complete",
+      "public_score": 0.11862,
+      "submission_timestamp_singapore": "2026-11-02T04:00:30.000+08:00",
+      "kaggle_timestamp_title": "Mon Nov 02 2026 04:00:30 GMT+0800 (Singapore Standard Time)",
+      "timestamp_source": "Kaggle submission row's rendered timestamp title attribute",
+      "client_submit_click_started_utc": "2026-11-01T20:00:35.099Z",
+      "client_submit_click_returned_utc": "2026-11-01T20:00:35.534Z"
+    },
+    "B": {
+      "file": "E:\\NTU Courses\\AI6102\\Assignment Group\\house_prices_project\\results\\reproduced_v2_20261102\\submission_blend_v2.csv",
+      "sha256": "6b82c0c0f40883c1b46668ef334accc43670d0c3157e0688ef99cf818c588635",
+      "description": "v2 equal-weight comparison ensemble",
+      "status": "Complete",
+      "public_score": 0.11865,
+      "submission_timestamp_singapore": "2026-11-02T04:00:57.000+08:00",
+      "kaggle_timestamp_title": "Mon Nov 02 2026 04:00:57 GMT+0800 (Singapore Standard Time)",
+      "timestamp_source": "Kaggle submission row's rendered timestamp title attribute",
+      "client_submit_click_started_utc": "2026-11-01T20:01:02.520Z",
+      "client_submit_click_returned_utc": "2026-11-01T20:01:02.947Z"
+    }
+  },
+  "leaderboard": {
+    "public_score": 0.11862,
+    "score_matches_submission": "A",
+    "score_note": "The leaderboard uses 0.11862, matching A and the pre-existing identical-score submission; B's 0.11865 does not replace the best score.",
+    "rank": 312,
+    "total_ranked_teams": 4641,
+    "top_percent": 6.722689075630252,
+    "top_percent_formula": "312 / 4641 * 100",
+    "within_top_10_percent": true,
+    "entries_shown": 3,
+    "search_filter": "",
+    "unfiltered_footer_text": "322 - 4641",
+    "kaggle_notice": "Your latest submission scored 0.11865. Your best score remains 0.11862.",
+    "checked_at_singapore": "2026-11-02T04:04:48.859+08:00",
+    "url": "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/leaderboard#"
+  },
+  "evidence": {
+    "primary_screenshots": {
+      "my_submissions": "my_submissions_scored.jpg",
+      "leaderboard_row": "leaderboard_row.jpg",
+      "unfiltered_leaderboard_footer": "leaderboard_footer.jpg"
+    },
+    "timestamp_note": "Screenshots show Kaggle's relative time labels. Exact Singapore timestamps were read from the associated DOM title attributes and preserved in page_metadata.json.",
+    "files": {
+      "leaderboard_footer.jpg": {
+        "sha256": "1544def8d7aa014e6947f101d19379bf5a94cb3c89f815fdf02d0f5819da03fb",
+        "bytes": 55708,
+        "saved_at_singapore": "2026-11-02T04:04:48.858354+08:00"
+      },
+      "leaderboard_row.jpg": {
+        "sha256": "f2b89b0af5243aaaa86c4c49101bd05a642a2dc43ea9f1c73b1f7d755bd4a444",
+        "bytes": 57259,
+        "saved_at_singapore": "2026-11-02T04:02:58.031250+08:00"
+      },
+      "leaderboard_row.txt": {
+        "sha256": "8dd63d468a253a02456c411940745182d42c856d11c754614d048f5f3d1666f7",
+        "bytes": 22264,
+        "saved_at_singapore": "2026-11-02T04:02:58.235818+08:00"
+      },
+      "leaderboard_total_unfiltered.jpg": {
+        "sha256": "270f5e7e60a0aa02168c5227e2a86bc5299014c1cb8d1f107e3eb004f56d243b",
+        "bytes": 70448,
+        "saved_at_singapore": "2026-11-02T04:03:19.120048+08:00"
+      },
+      "leaderboard_total_unfiltered.txt": {
+        "sha256": "3fbf2209f71d5208858b385fe6e669fc4a7d3ffa4a7e5e14d626c9ed3f76c307",
+        "bytes": 22273,
+        "saved_at_singapore": "2026-11-02T04:03:19.164325+08:00"
+      },
+      "my_submissions.jpg": {
+        "sha256": "f6aca8d4023c07bd33e4d714403e38386157326f53a4e54271d686ff662f03d7",
+        "bytes": 81267,
+        "saved_at_singapore": "2026-11-02T04:01:53.423675+08:00"
+      },
+      "my_submissions.txt": {
+        "sha256": "73e6bc8168ecebd532d5c0b4c7464ebda5620a9552ed7f83bbd05d8b242f5cc3",
+        "bytes": 4273,
+        "saved_at_singapore": "2026-11-02T04:01:53.424677+08:00"
+      },
+      "my_submissions_scored.jpg": {
+        "sha256": "28ea9fc69abf430e13f93239c18f7bd5ea893d4a3e29c11c1b5ee783e7d99286",
+        "bytes": 81395,
+        "saved_at_singapore": "2026-11-02T04:02:16.742330+08:00"
+      },
+      "my_submissions_scored.txt": {
+        "sha256": "58964331c5e957c6edcb97de88c08d8250e3deb214e72a1e8d8c683828c9ea24",
+        "bytes": 4283,
+        "saved_at_singapore": "2026-11-02T04:02:16.750334+08:00"
+      },
+      "page_metadata.json": {
+        "sha256": "af742a182ee6327fe26e19a404fe7ad0978bf8363b62d8dc11c626732b4491c7",
+        "bytes": 943,
+        "saved_at_singapore": "2026-11-02T04:04:48.859354+08:00"
+      }
+    }
+  },
+  "scope_verification": {
+    "existing_project_files_checked": 165,
+    "all_existing_project_files_unchanged": true,
+    "new_files_only_in": "evidence/2026-11-02_resubmission/",
+    "report_code_results_and_prior_evidence_unchanged": true,
+    "no_extra_submissions": true
+  }
+}

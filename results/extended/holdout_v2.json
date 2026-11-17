@@ -1,0 +1,48 @@
+{
+  "n_holdout": 292,
+  "scores": {
+    "Elastic Net + Yeo-Johnson": 0.11683813606222852,
+    "SVR, standard scaling": 0.11787192709985789,
+    "CatBoost, no interactions": 0.1194149836456407,
+    "XGBoost, no interactions": 0.11994862659295162,
+    "v2 blend": 0.11392121146575365,
+    "Ridge: basic": 0.12729512664601428,
+    "v1 blend": 0.11351366467495846
+  },
+  "v1_blend_minus_v2_blend_ci95": [
+    -0.003815249856957518,
+    0.002961137008774762
+  ],
+  "baseline_minus_v2_blend_ci95": [
+    0.0035275822976131195,
+    0.024487290984904354
+  ],
+  "seconds": 71.40398109900002,
+  "note": "v2 components and weights locked on development OOF before this single v2 holdout access. The same holdout was opened once before for v1.",
+  "bands": {
+    "Lowest quarter": {
+      "n": 73,
+      "Ridge: basic": 0.16555153684927051,
+      "v1 blend": 0.148249158396572,
+      "v2 blend": 0.14980247337132152
+    },
+    "Second quarter": {
+      "n": 73,
+      "Ridge: basic": 0.125293163238539,
+      "v1 blend": 0.11446637452844693,
+      "v2 blend": 0.1145731940362832
+    },
+    "Third quarter": {
+      "n": 74,
+      "Ridge: basic": 0.08753081098542703,
+      "v1 blend": 0.07272587925114397,
+      "v2 blend": 0.0732009984598
+    },
+    "Highest quarter": {
+      "n": 72,
+      "Ridge: basic": 0.1189015455142333,
+      "v1 blend": 0.10608344997962176,
+      "v2 blend": 0.10518624813321296
+    }
+  }
+}

@@ -1,0 +1,17 @@
+key,rule,oof_rmse,oof_rmse_excl_524_1299,fold_sd,seconds,model,variant
+groups__Ridge__Full engineered set,none,0.1346077410599462,0.11877016138751743,0.02680290031727584,0.7,Ridge,Full engineered set
+groups__Ridge__No domain handling,none,0.13460500898071523,0.11861902581913093,0.026898653513625765,0.5,Ridge,No domain handling
+groups__Ridge__No fixed log transforms,none,0.14735792250680932,0.1249249832644521,0.03279425978315216,0.6,Ridge,No fixed log transforms
+groups__Ridge__No area totals,none,0.13711228217327184,0.12017630035587797,0.027382456858547635,0.6,Ridge,No area totals
+groups__Ridge__No bathrooms,none,0.13469576947496095,0.11870849589395718,0.026984582800202956,0.7,Ridge,No bathrooms
+groups__Ridge__No ages,none,0.13456591245771513,0.118812897073714,0.02665253239723697,0.8,Ridge,No ages
+groups__Ridge__No indicators,none,0.1345020895519713,0.11872911672949057,0.026640174742313387,0.7,Ridge,No indicators
+groups__Ridge__No interactions,none,0.13312893514433563,0.11790190816737169,0.027126852321530594,0.9,Ridge,No interactions
+groups__LightGBM__Full engineered set,none,0.12533620593996395,0.12139885380698939,0.00994643630714729,5.6,LightGBM,Full engineered set
+groups__LightGBM__No domain handling,none,0.12613004951164683,0.12175840881868709,0.0103733471821577,6.0,LightGBM,No domain handling
+groups__LightGBM__No fixed log transforms,none,0.12531778302786958,0.12137980066111365,0.009950282139867183,5.3,LightGBM,No fixed log transforms
+groups__LightGBM__No area totals,none,0.1261943126678848,0.12244068933054784,0.010921967611909706,5.5,LightGBM,No area totals
+groups__LightGBM__No bathrooms,none,0.12755544525108123,0.12375735493149558,0.0100932520788869,5.8,LightGBM,No bathrooms
+groups__LightGBM__No ages,none,0.1261203211616311,0.12166684695953943,0.01054992271310035,5.7,LightGBM,No ages
+groups__LightGBM__No indicators,none,0.1258429032125472,0.12193581296816393,0.010572840232468827,5.8,LightGBM,No indicators
+groups__LightGBM__No interactions,none,0.12509324519280804,0.12097114601796118,0.009130939325255024,5.6,LightGBM,No interactions

@@ -1,0 +1,7 @@
+{
+  "seconds": 48.435666545000004,
+  "rows": 1459,
+  "prediction_min": 45582.92656703175,
+  "prediction_max": 509921.21414250304,
+  "submission_sha256": "134133ecc9b41e93dadca6eab8c54499f14a987befea8bcb66be679a4622da01"
+}

@@ -1,0 +1,2 @@
+# Preserve exact bytes for source, data, and evidence checksum verification.
+* -text

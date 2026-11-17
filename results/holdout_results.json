@@ -1,0 +1,18 @@
+{
+  "n_holdout": 292,
+  "scores": {
+    "ridge_basic": 0.12729512664601425,
+    "elastic_engineered": 0.11652008913112774,
+    "svr_engineered": 0.19731003525963525,
+    "cat_engineered": 0.12019071498382929,
+    "lgb_engineered": 0.11869819867163854,
+    "blend": 0.1135136618707672
+  },
+  "baseline_minus_blend_rmse_ci95": [
+    0.004646847484898394,
+    0.023943691083729644
+  ],
+  "seconds": 226.08577119989786,
+  "evaluated_utc": "2026-09-28T21:48:53.607494+00:00",
+  "note": "Models and blend weights locked before this evaluation. No retuning based on this holdout."
+}

@@ -1,0 +1,39 @@
+{
+  "name": "ridge_engineered_a30",
+  "config": {
+    "kind": "ridge",
+    "features": "engineered",
+    "alpha": 30.0
+  },
+  "oof_log_rmse": 0.1349968519548934,
+  "mean_fold_log_rmse": 0.1327861859958101,
+  "sd_fold_log_rmse": 0.027008024514895763,
+  "seconds": 0.3766030000988394,
+  "folds": [
+    {
+      "fold": 0,
+      "log_rmse": 0.1555256660810267,
+      "seconds": 0.06771690002642572
+    },
+    {
+      "fold": 1,
+      "log_rmse": 0.16773322466887547,
+      "seconds": 0.06823620002251118
+    },
+    {
+      "fold": 2,
+      "log_rmse": 0.1103323203872775,
+      "seconds": 0.06992439995519817
+    },
+    {
+      "fold": 3,
+      "log_rmse": 0.12039039969349542,
+      "seconds": 0.07446509995497763
+    },
+    {
+      "fold": 4,
+      "log_rmse": 0.10994931914837547,
+      "seconds": 0.09601269999984652
+    }
+  ]
+}

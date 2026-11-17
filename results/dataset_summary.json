@@ -1,0 +1,15 @@
+{
+  "n_train": 1460,
+  "n_test": 1459,
+  "n_features": 79,
+  "n_development": 1168,
+  "n_holdout": 292,
+  "numeric_features": 36,
+  "categorical_features": 43,
+  "development_price_min": 34900,
+  "development_price_max": 755000,
+  "development_price_median": 163000.0,
+  "development_missing_fraction": 0.06805964973122942,
+  "duplicate_feature_rows": 0,
+  "main_cv_total_seconds": 3702.8216148001375
+}

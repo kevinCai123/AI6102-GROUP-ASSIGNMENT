@@ -1,0 +1,18 @@
+{
+  "selected_models": [
+    "lgb_engineered",
+    "xgb_engineered",
+    "cat_engineered",
+    "cat_engineered_d4"
+  ],
+  "weights": [
+    0.45741939744119176,
+    0.11016310395663012,
+    0.2920494366070317,
+    0.14036806199514648
+  ],
+  "best_single": "lgb_engineered",
+  "blend_development_rmse": 0.12295459412467107,
+  "warning": "Blend weights and model selection use development OOF labels; this is a selection score, not an unbiased performance estimate.",
+  "locked_utc": "2026-09-28T21:44:56.618653+00:00"
+}

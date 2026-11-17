@@ -1,0 +1,3 @@
+key,rule,oof_rmse,oof_rmse_excl_524_1299,fold_sd,seconds,model
+catboost__v1__none,none,0.12639589467737194,0.11834994417748858,0.014117858170522753,0.0,CatBoost (v1 features)
+catboost__v2__none,none,0.124549814215876,0.11810720993031712,0.013110304174818217,0.0,CatBoost

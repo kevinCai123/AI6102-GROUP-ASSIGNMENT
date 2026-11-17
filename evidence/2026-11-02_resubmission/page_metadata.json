@@ -1,0 +1,19 @@
+{
+  "A": {
+    "kaggle_timestamp_title": "Mon Nov 02 2026 04:00:30 GMT+0800 (Singapore Standard Time)",
+    "submit_click_started_utc": "2026-11-01T20:00:35.099Z",
+    "submit_click_returned_utc": "2026-11-01T20:00:35.534Z"
+  },
+  "B": {
+    "kaggle_timestamp_title": "Mon Nov 02 2026 04:00:57 GMT+0800 (Singapore Standard Time)",
+    "submit_click_started_utc": "2026-11-01T20:01:02.520Z",
+    "submit_click_returned_utc": "2026-11-01T20:01:02.947Z"
+  },
+  "timestamp_source": "Rendered submission-row timestamp title attributes; Singapore Standard Time",
+  "leaderboard_url": "https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/leaderboard#",
+  "leaderboard_search": "",
+  "leaderboard_row": "312\nsonglin cai kevin1662\n0.11862\n3\n2m",
+  "leaderboard_notice": "Your latest submission scored 0.11865. Your best score remains 0.11862.",
+  "footer": "322 - 4641",
+  "captured_at_utc": "2026-11-01T20:04:48.859Z"
+}

@@ -1,0 +1,9 @@
+components,combiner,in_sample,nested
+v1 components,Equal-weight average,0.126263019783733,0.126263019783733
+v1 components,Constrained weights (v1 method),0.12035349140622631,0.1238535445053326
+v1 components,"Linear stack, nonnegative",0.12018655314719735,0.12432408438909649
+v1 components,Ridge stack,0.12018655325289623,0.12447719847805105
+v2 components,Equal-weight average,0.11969111904689432,0.11969111904689432
+v2 components,Constrained weights (v1 method),0.11878444720097264,0.12174735978703367
+v2 components,"Linear stack, nonnegative",0.11871396144630354,0.1222656383016328
+v2 components,Ridge stack,0.11869767551788114,0.12236029550052263

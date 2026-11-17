@@ -1,0 +1,743 @@
+- navigation "Main Kaggle page navigation":
+  - button "Navigation menu": menu
+  - link "Skip to content":
+    - /url: "#site-content"
+    - text: Skip to
+    - text: content
+  - button "Create on Kaggle":
+    - paragraph: Create
+  - list:
+    - listitem "Home List Item":
+      - link "Home":
+        - /url: /
+        - paragraph: Home
+    - listitem "Competitions List Item":
+      - link "Competitions":
+        - /url: /competitions
+        - paragraph: Competitions
+    - listitem "Benchmarks List Item":
+      - link "Benchmarks":
+        - /url: /benchmarks
+        - paragraph: Benchmarks
+    - listitem "Arenas List Item":
+      - link "Arenas":
+        - /url: /arenas
+        - paragraph: Arenas
+    - listitem "Game Arena List Item":
+      - link "Game Arena":
+        - /url: /game-arena
+        - paragraph: Game Arena
+  - list:
+    - listitem "Data Hub List Item":
+      - link "Data Hub":
+        - /url: "#"
+        - paragraph: Data Hub
+  - list:
+    - listitem "More on Kaggle List Item":
+      - link "More on Kaggle":
+        - /url: "#"
+        - paragraph: More
+  - button "Open Active Events dialog View Active Events":
+    - generic "Open Active Events dialog": auto_awesome_motion
+    - paragraph: View Active Events
+- navigation "Main menu, search and your account":
+  - textbox "Search"
+  - button "songlin cai kevin1662":
+    - generic "songlin cai kevin1662"
+- main:
+  - link "Kaggle's profile":
+    - /url: /organizations/kaggle
+    - generic "Kaggle"
+  - generic: Kaggle
+  - generic: · Getting Started Prediction Competition · Ongoing
+  - heading "House Prices - Advanced Regression Techniques" [level=1]
+  - paragraph: Predict sales prices and practice feature engineering, RFs, and gradient boosting
+  - heading "House Prices - Advanced Regression Techniques" [level=2]
+  - button "Submit Prediction":
+    - generic: Submit Prediction
+  - button "Competition options menu collapsed": more_horiz
+  - tablist:
+    - tab "Overview, 1 of 9":
+      - generic: Overview
+    - tab "Data, 2 of 9":
+      - generic: Data
+    - tab "Code, 3 of 9":
+      - generic: Code
+    - tab "Models, 4 of 9":
+      - generic: Models
+    - tab "Discussion, 5 of 9":
+      - generic: Discussion
+    - tab "Leaderboard, 6 of 9" [selected]:
+      - generic: Leaderboard
+    - tab "Rules, 7 of 9":
+      - generic: Rules
+    - tab "Team, 8 of 9":
+      - generic: Team
+    - tab "Submissions, 9 of 9":
+      - generic: Submissions
+  - separator
+  - heading "Leaderboard" [level=2]
+  - button "Download Leaderboard":
+    - generic: file_download
+    - generic: Raw Data
+  - button "Refresh":
+    - generic: refresh
+    - generic: Refresh
+  - generic: Your Recent Submission
+  - generic "Success": check_circle
+  - generic: submission_blend_v2.csv
+  - paragraph:
+    - generic: Submitted by songlin cai kevin1662
+    - text: ·
+    - generic: Submitted 2 minutes ago
+  - generic: "Score: 0.11865"
+  - button "Jump to your leaderboard position":
+    - generic: arrow_downward
+    - generic: Jump to your leaderboard position
+  - textbox "Search leaderboard"
+  - paragraph: This leaderboard is calculated with all of the test data.
+  - list:
+    - listitem "undefined List Item":
+      - generic: "#"
+      - generic: Team
+      - generic: Members
+      - generic: Score
+      - generic: Entries
+      - generic: Last
+      - generic: Join
+    - listitem "undefined List Item":
+      - generic: "1"
+      - generic: Asem Adnan
+      - link "Asem Adnan's profile":
+        - /url: /asemadnan
+        - generic "Asem Adnan"
+      - generic: "0.00000"
+      - generic: "23"
+      - generic: 2mo
+    - listitem "undefined List Item":
+      - generic: "2"
+      - generic: Hxakxids
+      - link "Hakid999's profile":
+        - /url: /hxakxids
+        - generic "Hakid999"
+      - generic: "0.00000"
+      - generic: "7"
+      - generic: 1mo
+    - listitem "undefined List Item":
+      - generic: "3"
+      - generic: Carlos Alberto Llano Flores
+      - link "Carlos Alberto Llano Flores's profile":
+        - /url: /carlosfloreschef
+        - generic "Carlos Alberto Llano Flores"
+      - generic: "0.00000"
+      - generic: "2"
+      - generic: 1mo
+    - listitem "undefined List Item":
+      - generic: "4"
+      - generic: Naveen160604
+      - link "Naveen160604's profile":
+        - /url: /naveen160604
+        - generic "Naveen160604"
+      - generic: "0.00000"
+      - generic: "2"
+      - generic: 23d
+    - listitem "undefined List Item":
+      - generic: "5"
+      - generic: byeongmin choi12
+      - link "byeongmin choi12's profile":
+        - /url: /byeongminchoi12
+        - generic "byeongmin choi12"
+      - generic: "0.00000"
+      - generic: "2"
+      - generic: 22d
+    - listitem "undefined List Item":
+      - generic: "6"
+      - generic: Fuad Alnhari
+      - link "Fuad Alnhari's profile":
+        - /url: /fuadalnhari
+        - generic "Fuad Alnhari"
+      - generic: "0.00000"
+      - generic: "6"
+      - generic: 21d
+    - listitem "undefined List Item":
+      - generic: "7"
+      - generic: EunSeob Sim
+      - link "EunSeob Sim's profile":
+        - /url: /eunseobsim
+        - generic "EunSeob Sim"
+      - generic: "0.00000"
+      - generic: "30"
+      - generic: 8d
+    - listitem "undefined List Item":
+      - generic: "8"
+      - generic: Ayman aldhahbi
+      - link "Allo's profile":
+        - /url: /aymanaldhahbi
+        - generic "Allo"
+      - generic: "0.00000"
+      - generic: "5"
+      - generic: 19d
+    - listitem "undefined List Item":
+      - generic: "9"
+      - generic: Abdulwali-Aljarbani
+      - link "Abdulwali-Aljarbani's profile":
+        - /url: /abdulwalialjarbani
+        - generic "Abdulwali-Aljarbani"
+      - generic: "0.00000"
+      - generic: "3"
+      - generic: 19d
+    - listitem "undefined List Item":
+      - generic: "10"
+      - generic: ______________
+      - link "عبدالولي الجرباني's profile":
+        - /url: /abdulwali0
+        - generic "عبدالولي الجرباني"
+      - generic: "0.00000"
+      - generic: "9"
+      - generic: 14d
+    - listitem "undefined List Item":
+      - generic: "11"
+      - generic: Akram Luqman
+      - link "Engineer One's profile":
+        - /url: /engineerone
+        - generic "Engineer One"
+      - generic: "0.00000"
+      - generic: "3"
+      - generic: 19d
+    - listitem "undefined List Item":
+      - generic: "12"
+      - generic: مروان شرهان
+      - link "Marwan Sharhan's profile":
+        - /url: /marwansharan123
+        - generic "Marwan Sharhan"
+      - generic: "0.00000"
+      - generic: "5"
+      - generic: 19d
+    - listitem "undefined List Item":
+      - generic: "13"
+      - generic: Abdulrahman Almithali
+      - link "Abdulrahman Almithali's profile":
+        - /url: /abdulrahmanalmithali
+        - generic "Abdulrahman Almithali"
+      - generic: "0.00000"
+      - generic: "3"
+      - generic: 18d
+    - listitem "undefined List Item":
+      - generic: "14"
+      - generic: 陈然 ! ! !
+      - link "陈然 ! ! !'s profile":
+        - /url: /chenrancc
+        - generic "陈然 ! ! !"
+      - generic: "0.00000"
+      - generic: "9"
+      - generic: 17d
+    - listitem "undefined List Item":
+      - generic: "15"
+      - generic: Daniel Schwank
+      - link "Daniel Schwank's profile":
+        - /url: /danielschwank
+        - generic "Daniel Schwank"
+      - generic: "0.00000"
+      - generic: "7"
+      - generic: 17d
+    - listitem "undefined List Item":
+      - generic: "16"
+      - generic: taha alshawesh
+      - link "taha alshawesh's profile":
+        - /url: /tahaalshawesh
+        - generic "taha alshawesh"
+      - generic: "0.00000"
+      - generic: "5"
+      - generic: 17d
+    - listitem "undefined List Item":
+      - generic: "17"
+      - generic: khalid ropid
+      - link "Khalid Robiad's profile":
+        - /url: /khalidropid
+        - generic "Khalid Robiad"
+      - generic: "0.00000"
+      - generic: "8"
+      - generic: 15d
+    - listitem "undefined List Item":
+      - generic: "18"
+      - generic: Reed Tem
+      - link "Red Team's profile":
+        - /url: /reedtem
+        - generic "Red Team"
+      - generic: "0.00000"
+      - generic: "3"
+      - generic: 15d
+    - listitem "undefined List Item":
+      - generic: "19"
+      - generic: For AI & Progaming Work
+      - link "Mohammed AL-Darbi's profile":
+        - /url: /foraiprogamingwork
+        - generic "Mohammed AL-Darbi"
+      - generic: "0.00000"
+      - generic: "11"
+      - generic: 12d
+    - listitem "undefined List Item":
+      - generic: "20"
+      - generic: mazen alodini
+      - link "Eng mazen alodini's profile":
+        - /url: /mazenalodini
+        - generic "Eng mazen alodini"
+      - generic: "0.00000"
+      - generic: "4"
+      - generic: 15d
+    - listitem "undefined List Item":
+      - generic: "21"
+      - generic: Brho _omy
+      - link "Ibrahim Mohammed's profile":
+        - /url: /brhoomy
+        - generic "Ibrahim Mohammed"
+      - generic: "0.00000"
+      - generic: "6"
+      - generic: 15d
+    - listitem "undefined List Item":
+      - generic: "22"
+      - generic: Mohmmed Alraud
+      - link "Mohmmed Alraud's profile":
+        - /url: /mohmmedalraud
+        - generic "Mohmmed Alraud"
+      - generic: "0.00000"
+      - generic: "10"
+      - generic: 15d
+    - listitem "undefined List Item":
+      - generic: "23"
+      - generic: احمد السماوي
+      - link "احمد السماوي's profile":
+        - /url: /ahmedalsmawey
+        - generic "احمد السماوي"
+      - generic: "0.00000"
+      - generic: "6"
+      - generic: 15d
+    - listitem "undefined List Item":
+      - generic: "24"
+      - generic: Moh__Ai_thammar
+      - link "Moh__Ai_thammar 's profile":
+        - /url: /mohaithammar
+        - generic "Moh__Ai_thammar"
+      - generic: "0.00000"
+      - generic: "1"
+      - generic: 15d
+    - listitem "undefined List Item":
+      - generic: "25"
+      - generic: Abdurazaq Sultan
+      - link "Abdurazaq Sultan's profile":
+        - /url: /abdurazaqsultan
+        - generic "Abdurazaq Sultan"
+      - generic: "0.00000"
+      - generic: "6"
+      - generic: 15d
+    - listitem "undefined List Item":
+      - generic: "26"
+      - generic: The Joker
+      - link "The Joker's profile":
+        - /url: /khaledalarami
+        - generic "The Joker"
+      - generic: "0.00000"
+      - generic: "4"
+      - generic: 15d
+    - listitem "undefined List Item":
+      - generic: "27"
+      - generic: suhialAlhajj
+      - link "suhail_Alhajj's profile":
+        - /url: /suhialalhaj
+        - generic "suhail_Alhajj"
+      - generic: "0.00000"
+      - generic: "16"
+      - generic: 15d
+    - listitem "undefined List Item":
+      - generic: "28"
+      - generic: mohameed_ameen_jafar.com
+      - link "mohameed_ameen_jafar.com's profile":
+        - /url: /mohameedameenjafar
+        - generic "mohameed_ameen_jafar.com"
+      - generic: "0.00000"
+      - generic: "15"
+      - generic: 15d
+    - listitem "undefined List Item":
+      - generic: "29"
+      - generic: Suhail_alhajj
+      - link "Suhail_alhajj's profile":
+        - /url: /suhailalhajj
+        - generic "Suhail_alhajj"
+      - generic: "0.00000"
+      - generic: "1"
+      - generic: 15d
+    - listitem "undefined List Item":
+      - generic: "30"
+      - generic: أحمد السماوي
+      - link "أحمد السماوي's profile":
+        - /url: /ahmedhmeedalsmawy
+        - generic "أحمد السماوي"
+      - generic: "0.00000"
+      - generic: "9"
+      - generic: 15d
+    - listitem "undefined List Item":
+      - generic: "31"
+      - generic: Work Prompt
+      - link "Work Prompt's profile":
+        - /url: /workprompt
+        - generic "Work Prompt"
+      - generic: "0.00000"
+      - generic: "7"
+      - generic: 15d
+    - listitem "undefined List Item":
+      - generic: "32"
+      - generic: lufy77
+      - link "lufy77's profile":
+        - /url: /lufy77
+        - generic "lufy77"
+      - generic: "0.00000"
+      - generic: "4"
+      - generic: 15d
+    - listitem "undefined List Item":
+      - generic: "33"
+      - generic: Mester Nobady
+      - link "Mester Nobady's profile":
+        - /url: /mesternobady
+        - generic "Mester Nobady"
+      - generic: "0.00000"
+      - generic: "2"
+      - generic: 15d
+    - listitem "undefined List Item":
+      - generic: "34"
+      - generic: taha dhiab
+      - link "taha dhiab's profile":
+        - /url: /tahadhiab
+        - generic "taha dhiab"
+      - generic: "0.00000"
+      - generic: "15"
+      - generic: 15d
+    - listitem "undefined List Item":
+      - generic: "35"
+      - generic: YuanMing Tiao
+      - link "YuanMing Tiao's profile":
+        - /url: /yuanmingtiao
+        - generic "YuanMing Tiao"
+      - generic: "0.00000"
+      - generic: "2"
+      - generic: 14d
+    - listitem "undefined List Item":
+      - generic: "36"
+      - generic: Mohj342
+      - link "MOHAMMED ALBOKHITY's profile":
+        - /url: /mohj342
+        - generic "MOHAMMED ALBOKHITY"
+      - generic: "0.00000"
+      - generic: "1"
+      - generic: 14d
+    - listitem "undefined List Item":
+      - generic: "37"
+      - generic: "[Deleted] 26ecb900-25b5-4e53-83a9-e83e32d5026a"
+      - link "[Deleted User]'s profile":
+        - /url: /del=4ebec3cfdb90b015
+        - generic "[Deleted User]"
+      - generic: "0.00000"
+      - generic: "3"
+      - generic: 11d
+    - listitem "undefined List Item":
+      - generic: "38"
+      - generic: real_lllltd
+      - link "real_lllltd's profile":
+        - /url: /reallllltd
+        - generic "real_lllltd"
+      - generic: "0.00000"
+      - generic: "5"
+      - generic: 10d
+    - listitem "undefined List Item":
+      - generic: "39"
+      - generic: dutcantri
+      - link "dutcantri's profile":
+        - /url: /dutcantri
+        - generic "dutcantri"
+      - generic: "0.00000"
+      - generic: "3"
+      - generic: 8d
+    - listitem "undefined List Item":
+      - generic: "40"
+      - generic: "[Deleted] 928d4d14-f983-4bea-ae7f-ce5754983cb6"
+      - link "[Deleted User]'s profile":
+        - /url: /del=ce3eda467b2be406
+        - generic "[Deleted User]"
+      - generic: "0.00000"
+      - generic: "2"
+      - generic: 8d
+    - listitem "undefined List Item":
+      - generic: "41"
+      - generic: zooloo0642
+      - link "zooloo0642's profile":
+        - /url: /zooloo0642
+        - generic "zooloo0642"
+      - generic: "0.00000"
+      - generic: "54"
+      - generic: 2d
+    - listitem "undefined List Item":
+      - generic: "42"
+      - generic: محمد قايد العلوي
+      - link "محمد خالد العلوي's profile":
+        - /url: /mqaydallwy361
+        - generic "محمد خالد العلوي"
+      - generic: "0.00000"
+      - generic: "9"
+      - generic: 18d
+    - listitem "undefined List Item":
+      - generic: "43"
+      - generic: Mohammed Abdulkaree
+      - link "Mohammed Al_Nahari's profile":
+        - /url: /mohammedabdulkaree
+        - generic "Mohammed Al_Nahari"
+      - generic: "0.00000"
+      - generic: "7"
+      - generic: 15d
+    - listitem "undefined List Item":
+      - generic: "44"
+      - generic: "Zain Ali #2"
+      - link "Zain Ali's profile":
+        - /url: /zain7ali
+        - generic "Zain Ali"
+      - generic: "0.00000"
+      - generic: "4"
+      - generic: 15d
+    - listitem "undefined List Item":
+      - generic: "45"
+      - generic: Ahmed San
+      - link "Ahmed San's profile":
+        - /url: /ahmedsan
+        - generic "Ahmed San"
+      - generic: "0.00000"
+      - generic: "3"
+      - generic: 15d
+    - listitem "undefined List Item":
+      - generic: "46"
+      - generic: Abdullah_Asaad1
+      - link "Abdullah_Asaad1 's profile":
+        - /url: /abdullahasaad1
+        - generic "Abdullah_Asaad1"
+      - generic: "0.00000"
+      - generic: "5"
+      - generic: 15d
+    - listitem "undefined List Item":
+      - generic: "47"
+      - generic: Khaled Akram
+      - link "Khaled Akram's profile":
+        - /url: /urkhaled
+        - generic "Khaled Akram"
+      - generic: "0.00000"
+      - generic: "2"
+      - generic: 14d
+    - listitem "undefined List Item":
+      - generic: "48"
+      - generic: Khulood Akram
+      - link "Khulood Akram's profile":
+        - /url: /khuloodakram
+        - generic "Khulood Akram"
+      - generic: "0.00000"
+      - generic: "12"
+      - generic: 5d
+    - listitem "undefined List Item":
+      - generic: "49"
+      - generic: Amjad Abdallah
+      - link "Amjad Abdallah's profile":
+        - /url: /amjadabdallah
+        - generic "Amjad Abdallah"
+      - generic: "0.00000"
+      - generic: "1"
+      - generic: 14d
+  - generic: 50 - 301
+  - button "Load 252 More Rows":
+    - generic: unfold_more
+    - generic: See 252 More
+  - separator
+  - list:
+    - listitem "undefined List Item":
+      - generic: "302"
+      - generic: hitszbyyq
+      - link "hitszbyyq's profile":
+        - /url: /hitszbyyq
+        - generic "hitszbyyq"
+      - generic: "0.11854"
+      - generic: "18"
+      - generic: 6d
+    - listitem "undefined List Item":
+      - generic: "303"
+      - generic: Ishaan Srichitturi
+      - link "Ishaan Srichitturi's profile":
+        - /url: /ishaansrichitturi
+        - generic "Ishaan Srichitturi"
+      - generic: "0.11855"
+      - generic: "3"
+      - generic: 1mo
+    - listitem "undefined List Item":
+      - generic: "304"
+      - generic: Yusuf_987
+      - link "Yusuf_987's profile":
+        - /url: /yusuf987
+        - generic "Yusuf_987"
+      - generic: "0.11855"
+      - generic: "20"
+      - generic: 9d
+    - listitem "undefined List Item":
+      - generic: "305"
+      - generic: Windfall Chen
+      - link "Windfall Chen's profile":
+        - /url: /windfallchen
+        - generic "Windfall Chen"
+      - generic: "0.11857"
+      - generic: "2"
+      - generic: 1mo
+    - listitem "undefined List Item":
+      - generic: "306"
+      - generic: baijiahao26
+      - link "baijiahao26's profile":
+        - /url: /baijiahao26
+        - generic "baijiahao26"
+      - generic: "0.11857"
+      - generic: "1"
+      - generic: 7d
+    - listitem "undefined List Item":
+      - generic: "307"
+      - generic: Jakub Krajniak
+      - link "Jakub Krajniak's profile":
+        - /url: /jkrajniak
+        - generic "Jakub Krajniak"
+      - generic: "0.11859"
+      - generic: "25"
+      - generic: 2d
+    - listitem "undefined List Item":
+      - generic: "308"
+      - generic: qingzebai
+      - link "qingzebai's profile":
+        - /url: /qingzebai
+        - generic "qingzebai"
+      - generic: "0.11859"
+      - generic: "2"
+      - generic: 1mo
+    - listitem "undefined List Item":
+      - generic: "309"
+      - generic: Иван Самарченко
+      - link "Иван Самарченко's profile":
+        - /url: /samarchenkoivan
+        - generic "Иван Самарченко"
+      - generic: "0.11860"
+      - generic: "5"
+      - generic: 21d
+    - listitem "undefined List Item":
+      - generic: "310"
+      - generic: Hosera Zoe
+      - link "Hosera Zoe's profile":
+        - /url: /hoserazoe
+        - generic "Hosera Zoe"
+      - generic: "0.11860"
+      - generic: "2"
+      - generic: 1mo
+    - listitem "undefined List Item":
+      - generic: "311"
+      - generic: Lisa（Yuchen） Zhang
+      - link "Lisa（Yuchen） Zhang's profile":
+        - /url: /lisayuchenzhang
+        - generic "Lisa（Yuchen） Zhang"
+      - generic: "0.11861"
+      - generic: "7"
+      - generic: 1mo
+    - listitem "undefined List Item":
+      - generic: "312"
+      - generic: songlin cai kevin1662
+      - link "songlin cai kevin1662's profile" [active]:
+        - /url: /songlincaikevin1662
+        - generic "songlin cai kevin1662"
+      - generic: "0.11862"
+      - generic: "3"
+      - generic: 2m
+    - separator
+    - generic: 🧪
+    - generic: Your latest submission scored 0.11865. Your best score remains 0.11862.
+    - separator
+    - listitem "undefined List Item":
+      - generic: "313"
+      - generic: Wenbin Cao
+      - link "Wenbin Cao's profile":
+        - /url: /wenbincao
+        - generic "Wenbin Cao"
+      - generic: "0.11864"
+      - generic: "2"
+      - generic: 11d
+    - listitem "undefined List Item":
+      - generic: "314"
+      - generic: greanhry greanhry
+      - link "greanhry greanhry's profile":
+        - /url: /greanhrygreanhry
+        - generic "greanhry greanhry"
+      - generic: "0.11865"
+      - generic: "2"
+      - generic: 1mo
+    - listitem "undefined List Item":
+      - generic: "315"
+      - generic: Maxsaro
+      - link "Maxsaro's profile":
+        - /url: /maxsaro
+        - generic "Maxsaro"
+      - generic: "0.11868"
+      - generic: "1"
+      - generic: 2mo
+    - listitem "undefined List Item":
+      - generic: "316"
+      - generic: Samuel Joray
+      - link "Samuel Joray's profile":
+        - /url: /samueljoray
+        - generic "Samuel Joray"
+      - generic: "0.11869"
+      - generic: "2"
+      - generic: 1mo
+    - listitem "undefined List Item":
+      - generic: "317"
+      - generic: Yog Gao
+      - link "Yog Gao's profile":
+        - /url: /yoggao
+        - generic "Yog Gao"
+      - generic: "0.11869"
+      - generic: "2"
+      - generic: 20d
+    - listitem "undefined List Item":
+      - generic: "318"
+      - generic: Hengyi Li
+      - link "Hengyi Li's profile":
+        - /url: /hangngailei
+        - generic "Hengyi Li"
+      - generic: "0.11870"
+      - generic: "2"
+      - generic: 12d
+    - listitem "undefined List Item":
+      - generic: "319"
+      - generic: Abdon Megale
+      - link "Abdon Megale's profile":
+        - /url: /abdonmegale
+        - generic "Abdon Megale"
+      - generic: "0.11871"
+      - generic: "2"
+      - generic: 14d
+    - listitem "undefined List Item":
+      - generic: "320"
+      - generic: LorelaiSmith1234
+      - link "LorelaiSmith1234's profile":
+        - /url: /lorelaismith1234
+        - generic "LorelaiSmith1234"
+      - generic: "0.11872"
+      - generic: "1"
+      - generic: 24d
+    - listitem "undefined List Item":
+      - generic: "321"
+      - generic: Crystalccccc
+      - link "Crystalccccc's profile":
+        - /url: /crystalccccc
+        - generic "Crystalccccc"
+      - generic: "0.11874"
+      - generic: "4"
+      - generic: 7d
+  - generic: 322 - 4641
+  - button "Load 4320 More Rows":
+    - generic: unfold_more
+    - generic: See 4320 More
+- alert

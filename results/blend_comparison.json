@@ -1,0 +1,21 @@
+{
+  "top_four_score": 0.12295459412467107,
+  "diverse_family_score": 0.12035349140622666,
+  "all_candidates_score": 0.12032697771509482,
+  "all_candidate_weights": {
+    "lgb_engineered": 0.4505331220245587,
+    "xgb_engineered": 2.313471972078108e-17,
+    "cat_engineered": 0.07351299571897862,
+    "cat_engineered_d4": 0.03037507878845072,
+    "cat_basic": 0.06771161973224855,
+    "elastic_engineered": 0.3473697072756729,
+    "gbr_huber": 0.0,
+    "ridge_engineered": 3.810647704975407e-17,
+    "ridge_engineered_a30": 0.0,
+    "ridge_domain": 3.350465292643986e-18,
+    "ridge_basic": 5.847756649166078e-18,
+    "svr_engineered": 0.030497476460090378
+  },
+  "chosen": "diverse_family",
+  "rationale": "Preserve complementary regularized-linear, kernel and tree representations without fitting redundant slow CatBoost variants. All decisions use development labels only."
+}
