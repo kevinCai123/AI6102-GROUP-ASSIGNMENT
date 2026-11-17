@@ -25,7 +25,7 @@ The submitted files are `results/submissions/submission_blend.csv` (final ensemb
 - `src/run_experiments.py`: development cross-validation, locked holdout evaluation and final refit.
 - `src/select_diverse_blend.py`: picks the best model in each family and fits the ensemble weights, using development data only.
 - `src/predict.py`: recreates the final submission from the saved models without retraining.
-- `src/analyze_results.py`: dataset summaries and four figures (target, missingness, model comparison, holdout diagnostics).
+- `src/analyze_results.py`: dataset summaries and three figures (target distribution, missingness, holdout diagnostics).
 - `src/diagnose_scaling.py`: SVR scaling diagnostic.
 - `src/models_v2.py`, `src/extended_common.py`, `src/extended_experiments.py`: ablation and tuning experiments.
 - `src/extended_blend.py`: combiner comparison.

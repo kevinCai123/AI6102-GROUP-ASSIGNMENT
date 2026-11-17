@@ -1,4 +1,4 @@
-"""Figures for the extended (v2) experiments. Needs only pandas and matplotlib.
+"""Figures for the ablation, importance and sensitivity experiments. Needs only pandas and matplotlib.
 
 Usage: python src/extended_figures.py --results results/extended --figures report/figures
 """
@@ -49,7 +49,6 @@ def importance(res, fig, top=15):
     f, ax = plt.subplots(figsize=(8.0, 3.9))
     ax.barh(d.feature, d.mean_abs_shap, color=[TEAL if e else BLUE for e in d.engineered], height=.62)
     ax.set_xlabel("Mean |SHAP value| on development rows (log-price units)")
-    ax.set_title("XGBoost component: most influential attributes")
     from matplotlib.patches import Patch
     ax.legend(handles=[Patch(color=TEAL, label="Engineered in this project"), Patch(color=BLUE, label="Original attribute")],
               frameon=False, loc="lower right", fontsize=8)
